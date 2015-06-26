@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MetadataStrip</string>
+    <string name="title_file_detail">Detalles</string>
+    
+    <string name="empty">Vacío</string>
+    
+    <string name="action_location">Ubicación</string>
+    <string name="action_folder_back">Atrás</string>
+    <string name="action_share">Compartir</string>
+    <string name="action_about">Información</string>
+    <string name="error_open_file">no se puede abrir</string>
+    <string name="error_process_file">Error inesperado. Más detalles:</string>
+    <string name="share_text">metadatos extraidos el</string>
+    <string name="share_subject">metadatos extraidos de</string>
+</resources>

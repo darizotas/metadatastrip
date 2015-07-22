@@ -74,6 +74,14 @@ public class MetaDataExtractorProxy {
 					mListExtractor.put(0, extractor);
 				}
 			}
+			// PDFs.
+			if (mime.contains("pdf")) {
+				extractor = mListExtractor.get(1);
+				if (extractor == null) {
+					extractor = new PdfMetaDataExtractor();
+					mListExtractor.put(1, extractor);
+				}
+			}
 		}
 		
 		return extractor;
